@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+
+ul a{
+    list-style: none;
+    color:#2b2758;
+    font-size: 24px;
+}
+    
+p {
+   font-family: sofia;
+   padding:10px;  
+}
+
+ul li{
+   display:inline;
+   padding: 10px 30px;
+   font-weight:bold;
+}
+
+nav {
+
+   background-color:#4795c2;
+   padding: 20px;
+   text-align: center;
+   flex-wrap:wrap;
+
+}
+.three{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.three > div{
+    display:flex;
+    flex-direction: column;
+    background-color:#8a091a;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:100%;
+    max-width:400px;
+}
+
+
+.three img{
+    width:100%;
+}
+
+@media screen and ( min-width: 800px){
+    .three > div{
+        display: flex;
+        flex-wrap:wrap;
+        border:solid 1px#0f0e0f;
+        margin:30px;
+        height:360px;
+    }
+}

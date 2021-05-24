@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday Greetings</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+
+<style type="text/css">
+   
+    @import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+body{
+     
+        background-image:url("images/812326.jpg");
+        background-repeat:no-repeat;
+        padding-top: 320px;
+        background-color: #90c5e4;
+        background-position: center;
+        width:100%;
+}
+   
+#page{
+        padding-top: 300px;
+}
+
+#button{
+        padding-bottom: 200px;
+        padding-left: 100px;
+      
+}
+
+#Greet{
+        font-size: 85px;
+        color:#f00404;
+        text-align: center;
+}
+
+#santa{
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; 
+  animation: move 6s infinite;
+  padding-left:200px;
+
+}
+
+#santa {-webkit-animation-timing-function: ease;}
+#santa {animation-timing-function: ease;}
+
+@-webkit-keyframes move {
+  from {left: 0px;}
+  to {left: 1200px;}
+}
+
+@keyframes move {
+  from {left: 0px;}
+  to {left: 1200px;}
+}
+  
+</style>
+
+<body>
+
+    <div id="button"><button type="button" onclick="document.getElementById('Greet').style.display='block'">You have a message from Santa</button></div>
+
+    <div id="Greet" style="display:none" >Merry Christmas and Happy Holidays!</div>
+
+    <div id="santa"><img src="images/santa.png"/></div>
+    <div id="page">
+
+    </div>
+        <nav>
+            <ul>
+                <li><a href="first.html">First Page</a></li>
+                <li><a href="Second.html">Second Page</a></li>
+                <li><a href="third.html">Third Page</a></li>
+                <li><a href="fourth.html">Fourth Page</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>

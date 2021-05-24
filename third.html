@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday Greetings</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+
+<style type="text/css">
+   
+    @import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+body{
+ 
+    background-image:url("images/2.jpg");
+    background-repeat:no-repeat;
+    background-color: #a2a6e0;
+}
+#page{
+  padding-top: 200px;
+}
+h1{
+  color:red;
+  font-size: 45px;
+  padding-left: 400px;
+}
+
+#santa{
+  position: relative;
+  -webkit-animation: hat 5s infinite; 
+  animation: hat 5s infinite;
+  padding-left: 615px;
+}
+
+
+    #santa {-webkit-animation-timing-function: ease;}
+    #santa {animation-timing-function: ease;}
+  
+
+@-webkit-keyframes hat {
+  from {top: 0px;}
+  to {top: 370px;}
+}
+
+@keyframes hat {
+  from {top: 0px;}
+  to {top:370px;}
+}
+
+#nohatsanta{
+  padding:300px 0px 0px 600px ;
+}
+
+  
+</style>
+
+<body>
+
+
+    <h1>Yeah! Santa gets his hat back!</h1>
+    <div id="santa"><img src="images/hat3.png"/></div>
+    <div id="nohatsanta"><img src="images/nohatsanta1.png"/></div>
+
+    <div id="page">
+      <nav>
+        <ul>
+                <li><a href="first.html">First Page</a></li>
+                <li><a href="second.html">Second Page</a></li>
+                <li><a href="fourth.html">Fourth Page</a></li>
+                <li><a href="fifth.html">Fifth Page</a></li>
+        </ul>
+      </nav>
+    </div>
+
+</body>
+</html>

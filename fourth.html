@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday Greetings</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+
+
+<style type="text/css">
+   
+    @import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+    #page{
+    padding-top:600px;
+}
+ body{
+  background-color:#eb6b56;
+  font-size: 75px;
+  text-align: center;
+  color: #d3eaeb;
+}
+   
+#greet1 {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  background-color:#eb6b56;
+  animation-name: greeting;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  padding: 30px 30px 30px 30px;  
+}
+#greet2 {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  background-color:#eb6b56;
+  animation-name: greeting;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s; 
+  padding: 30px 30px 30px 30px; 
+}
+#greet3 {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  background-color:#eb6b56;
+  animation-name: greeting;
+  animation-duration: 10s;
+  animation-iteration-count: infinite; 
+  animation-delay: 2s; 
+  padding: 30px 30px 30px 30px;  
+}
+
+.card-container{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+
+@keyframes greeting {
+  0%   {color: #99B898; left:50px; top:50px;}
+  20%  {color: #cc2a49; left:100px; top:500px;}
+  30%  {color: #cf6456; left:100px; top:500px;}
+  40%  {color: #f36f38; left:200px; top:300px;}
+  50%  {color: #f22324; left:200px; top:300px;}
+  60%  {color: #E84A5f; left:300px; top:200px;}
+  70%  {color: #f7d969; left:300px; top:200px;}
+  80%  {color: #Ef4648; left:400px; top:100px;}
+  90%  {color: #582841; left:400px; top:100px;}
+  100% {color: #2d3f47; left:50px; top:50px;}
+}
+</style>
+
+
+
+<body>
+
+  <section class="card-container">
+   
+        <div id="greet1">Merry Christmas!</div>
+        <div id="greet2">Happy New Year!</div>
+        <div id="greet3">Happy Holidays!</div>
+
+  </section>
+
+      <div id="page">
+          <nav>
+              <ul>
+                      <li><a href="first.html">First Page</a></li>
+                      <li><a href="Second.html">Second Page</a></li>
+                      <li><a href="third.html">Third Page</a></li>
+                      <li><a href="fifth.html">Fifth Page</a></li>
+              </ul>
+          </nav>
+      </div>     
+</body>
+</html>
